@@ -28,7 +28,7 @@ ncalib = 128;
 % threshold_list=[linspace(3,4,5),linspace(4,4,15)];
 threshold_list=3;
 ksize = [3,3]; % ESPIRiT kernel-window-size
-sakeIter = 2;
+sakeIter = 50;
 % wnthresh = 4.5; % 3 or 4 good for brain
 
 epi_kxkyzc_2shot_sakeCor=zeros(ncalib,ncalib,nSlice,nCoil);

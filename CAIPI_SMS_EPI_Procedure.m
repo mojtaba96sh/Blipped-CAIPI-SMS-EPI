@@ -19,4 +19,4 @@ K4 = SAKE_singleSlice(R4);
 % Images = slicee_GRAPPA_mb2(KK,K1,K2);
 
 mb = 4; 
-Images = slicee_GRAPPA_mb4(KK,K1,K2,K3,K4);
+Images = slice_GRAPPA_mb4(KK,K1,K2,K3,K4);
